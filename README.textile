@@ -1,0 +1,9 @@
+This extension is an EE 2.0 compatible modified version of "LG Add CP Tabs":http://leevigraham.com/cms-customisation/expressionengine/lg-add-cp-tabs/. The one big difference is that you cannot add tabs depending on Member Group, but every new member you register gets the tabs.
+
+Maybe down the line I can take the time to modify it to work like LG Add CP Tabs worked.
+
+Just drop the folder into the third_party folder, then enable the extension. Edit the extension settings and drop in the tabs that you want to add for all members that you register.
+
+*Format:*
+Communicate|index.php?D=cp&amp;C=tools_communicate|1
+tab_name|cp_url|sort_order
